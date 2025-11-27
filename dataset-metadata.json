@@ -1,0 +1,10 @@
+{
+    "title": "Truck Detection Dataset",
+    "id": "obansasheriff/truck-detection-dataset",
+    "licenses": [
+        {
+            "name": "CC0-1.0"
+        }
+    ],
+    "isPrivate": false
+}

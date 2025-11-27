@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 21
+names: ['Ambulance', 'Box Truck', 'Bus', 'Bus- Small', 'Concrete Mixer', 'Construction Equipment', 'Cyclist', 'Fire Truck', 'Garbage Truck', 'Hatchback', 'Motorbike', 'Pickup', 'Pickup- Utility', 'SUV', 'Sedan', 'Tow Truck', 'Tractor Trailer', 'Trailer', 'Truck- 2-Axle', 'Truck- Multi-Axle', 'Van']
+
+roboflow:
+  workspace: vehicle-classfication
+  project: vehicle-classification-v2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vehicle-classfication/vehicle-classification-v2/dataset/1

@@ -1,9 +1,8 @@
 train: ../train/images
 val: ../valid/images
 test: ../test/images
-
-nc: 21
-names: ['Ambulance', 'Box Truck', 'Bus', 'Bus- Small', 'Concrete Mixer', 'Construction Equipment', 'Cyclist', 'Fire Truck', 'Garbage Truck', 'Hatchback', 'Motorbike', 'Pickup', 'Pickup- Utility', 'SUV', 'Sedan', 'Tow Truck', 'Tractor Trailer', 'Trailer', 'Truck- 2-Axle', 'Truck- Multi-Axle', 'Van']
+nc: 17
+names: ['Ambulance', 'Truck', 'Bus', 'Bus- Small', 'Concrete Mixer', 'Construction Equipment', 'Cyclist', 'Fire Truck', 'Garbage Truck', 'Hatchback', 'Motorbike', 'Pickup', 'Pickup- Utility', 'SUV', 'Sedan', 'Tow Truck', 'Van']
 
 roboflow:
   workspace: vehicle-classfication
